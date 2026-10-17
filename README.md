@@ -94,6 +94,8 @@ Everything you need is in this repository:
 | `scripts/Install-UnifiedCalendar.ps1` | Optional: uploads, publishes and approves the permissions with PnP PowerShell |
 | `scripts/Add-UnifiedCalendarToPage.ps1` | Optional: puts the web part on a page with the settings you choose |
 
+The package is also attached to every [GitHub release](https://github.com/zemanel20/spfx-unified-calendar/releases); the latest one is always the file to install.
+
 Pick **one** of the two app catalog options, then approve the permissions, then add the web part to a page.
 
 ### Option A: tenant app catalog
