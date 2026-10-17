@@ -8,13 +8,15 @@ One personal calendar on the intranet. It shows, for the signed-in user and in a
 
 Everything is read through Microsoft Graph with the user's own permissions. Nothing is stored, nothing is written back, and a click on any item opens it in the app it came from.
 
-![Unified calendar on a desktop page](docs/images/web.png)
+![Unified calendar in the week view on a desktop page](docs/images/web.png)
 
 <p align="center">
-  <img src="docs/images/mobile.png" alt="Unified calendar on a phone" width="320">
+  <img src="docs/images/mobile.png" alt="The same web part in a narrow column: week, 3 days and month, bigger touch targets" width="300">
   &nbsp;&nbsp;
-  <img src="docs/images/preview.png" alt="Item preview" width="320">
+  <img src="docs/images/preview-mobile.png" alt="Preview of a To Do task in the narrow layout" width="300">
 </p>
+
+![Preview of an Outlook event with the button that opens it in Outlook](docs/images/preview.png)
 
 ![SharePoint Online](https://img.shields.io/badge/SharePoint-Online-0078d4.svg)
 ![SPFx](https://img.shields.io/badge/SPFx-1.23-green.svg)
@@ -179,6 +181,8 @@ A one-third column is a good home for it: the web part switches to its narrow la
 | Use demo data | Off | Shows sample items instead of calling Microsoft Graph, for screenshots and demos |
 
 The weekday names in the pane come from the page language.
+
+<img src="docs/images/properties.png" alt="The property pane with every setting" width="380">
 
 ## Privacy and security
 
